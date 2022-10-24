@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "urunAdi": "Domates",
+      "urunResmi": "https://www.aftamarket.com.tr/sebze-38-sebzeler-manav-23805-26-B.jpg",
+      "id": 1
+    },
+    {
+      "urunAdi": "Biber",
+      "urunResmi": "https://termodizayn.com/thumb.php?p=./img/uploads/muhafazakosullari/icerik/17-biber1.jpg&h=434",
+      "id": 2
+    },
+    {
+      "urunAdi": "Salatalık",
+      "urunResmi": "https://st3.myideasoft.com/shop/du/95/myassets/products/192/pr_01_192.jpg?revision=1441098614",
+      "id": 3
+    },
+    {
+      "urunAdi": "Patlıcan",
+      "urunResmi": "http://www.greenada.com/Uploads/UrunResimleri/buyuk/greenadakemer-patlican-500-g-d9bc32.jpg",
+      "id": 4
+    },
+    {
+      "urunAdi": "Elma",
+      "urunResmi": "https://termodizayn.com/thumb.php?p=./img/uploads/muhafazakosullari/icerik/49-elma1.jpg&h=434",
+      "id": 5
+    },
+    {
+      "urunAdi": "Armut",
+      "urunResmi": "https://www.diyadinnet.com/img/2015/12/armut.jpg",
+      "id": 6
+    },
+    {
+      "urunAdi": "Muz",
+      "urunResmi": "http://www.cagri.com/Uploads/UrunResimleri/buyuk/muz-yerli-kg-4498-8.jpg",
+      "id": 7
+    },
+    {
+      "urunAdi": "Karpuz",
+      "urunResmi": "https://termodizayn.com/thumb.php?p=./img/uploads/muhafazakosullari/icerik/55-karpuz1.jpg&h=434",
+      "id": 8
+    }
+  ],
+  "baskets": [
+    {
+      "urunAdi": "Salatalık",
+      "urunResmi": "https://st3.myideasoft.com/shop/du/95/myassets/products/192/pr_01_192.jpg?revision=1441098614",
+      "id": 3
+    },
+    {
+      "urunAdi": "Patlıcan",
+      "urunResmi": "http://www.greenada.com/Uploads/UrunResimleri/buyuk/greenadakemer-patlican-500-g-d9bc32.jpg",
+      "id": 4
+    },
+    {
+      "urunAdi": "Muz",
+      "urunResmi": "http://www.cagri.com/Uploads/UrunResimleri/buyuk/muz-yerli-kg-4498-8.jpg",
+      "id": 7
+    },
+    {
+      "urunAdi": "Armut",
+      "urunResmi": "https://www.diyadinnet.com/img/2015/12/armut.jpg",
+      "id": 6
+    },
+    {
+      "urunAdi": "Elma",
+      "urunResmi": "https://termodizayn.com/thumb.php?p=./img/uploads/muhafazakosullari/icerik/49-elma1.jpg&h=434",
+      "id": 5
+    },
+    {
+      "urunAdi": "Domates",
+      "urunResmi": "https://www.aftamarket.com.tr/sebze-38-sebzeler-manav-23805-26-B.jpg",
+      "id": 1
+    }
+  ]
+}

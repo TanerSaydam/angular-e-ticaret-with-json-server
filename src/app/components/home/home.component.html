@@ -1,0 +1,51 @@
+<div class="container">
+    <button class="btn btn-success mt-4 w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <i class="fa fa-plus"></i>
+        Ürün Ekle
+    </button>
+
+
+    <hr>
+
+    <div class="row">
+        <div class="col-md-3 mt-2" *ngFor="let product of products">
+            <div class="card" style="width: 18rem;">
+                <img [src]="product.urunResmi" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">{{product.urunAdi}}</h5>                  
+                  <button class="btn btn-warning w-100 mt-2" (click)="sepeteUrunEkle(product)">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    Sepete Ekle
+                </button>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Ürün Ekleme</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="form-group">
+                <label for="urunAdi">Ürün Adı</label>
+                <input type="text" [(ngModel)]="product.urunAdi" id="urunAdi" class="form-control">
+            </div>
+            <div class="form-group mt-2">
+                <label for="urunResmi">Ürün Resmi</label>
+                <input type="text" [(ngModel)]="product.urunResmi" id="urunResmi" class="form-control">
+            </div>
+            <div class="form-group mt-2">
+                <button class="btn btn-primary w-100" (click)="urunEkle()">Ürün Ekle</button>
+            </div>
+        </div>        
+      </div>
+    </div>
+  </div>
